@@ -1,0 +1,46 @@
+/* text */
+
+p {
+    color: rgb(144, 47, 47);
+    font-family: georgia;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/*  images */
+.title-img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.blocks-img {
+
+}
+
+.door-img {
+
+}
+
+
+/* containers */
+.page-top {
+
+}
+
+.fully-across {
+
+}
+
+.column-container {
+
+}
+
+.each-column {
+
+}
+
+.doors {
+
+}
