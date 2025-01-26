@@ -37,6 +37,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door1.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -45,6 +46,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door1open.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -53,6 +55,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door2.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -61,6 +64,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door2open.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -69,6 +73,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door3.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -77,6 +82,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: relative;
     background-image: url(assets/door3open.png);
+    display: block;
     padding-top: 100%;
 }
 
@@ -111,4 +117,5 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: block;
 }
