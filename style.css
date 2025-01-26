@@ -1,10 +1,11 @@
 /* text */
 
 p {
-    color: rgb(144, 47, 47);
+    color: rgb(59, 7, 7);
     font-family: georgia;
     font-size: 2em;
     text-align: center;
+    background-color: rgb(241, 51, 51);
 }
 
 
@@ -16,12 +17,69 @@ p {
 }
 
 .blocks-img {
-
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.door-img {
-
+.blocks-img-wide {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 5em;
 }
+
+.door-img1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door1.png);
+    padding-top: 100%;
+}
+
+.door-img1:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door1open.png);
+    padding-top: 100%;
+}
+
+.door-img2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door2.png);
+    padding-top: 100%;
+}
+
+.door-img2:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door2open.png);
+    padding-top: 100%;
+}
+
+.door-img3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door3.png);
+    padding-top: 100%;
+}
+
+.door-img3:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(assets/door3open.png);
+    padding-top: 100%;
+}
+
 
 
 /* containers */
@@ -33,14 +91,24 @@ p {
 
 }
 
-.column-container {
+.each-column {
+    
 
 }
 
-.each-column {
+.column-container {
+    columns: 3;
 
 }
 
 .doors {
 
+}
+
+.background {
+    min-height: 2000px;
+    background-image: url(assets/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
