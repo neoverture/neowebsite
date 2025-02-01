@@ -86,6 +86,9 @@ p {
     padding-top: 100%;
 }
 
+.doors {
+
+}
 
 
 /* containers */
@@ -107,9 +110,6 @@ p {
 
 }
 
-.doors {
-
-}
 
 .background {
     min-height: 2000px;
