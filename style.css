@@ -1,28 +1,45 @@
 /* text */
 
 .disclaimer {
-    color: rgb(249, 245, 245);
-    font-family: "Dongle", serif;
-    font-size: 24;
-    font-weight: 700;
     background-color: rgb(173, 23, 23);
-    margin: 0;
-    line-height: 1;
     text-align: center;
 }
 
-.dongle-regular {
+p {
     color: rgb(249, 245, 245);
     font-family: "Dongle", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 200%;
+    line-height: 75%;
+    display: block;
+    margin-left: 16px;
   }
 
-.dongle-bold {
+  b {
     color: rgb(249, 245, 245);
     font-family: "Dongle", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 300%;
     font-weight: 700;
-    font-style: normal;
+    display: inline-block;
+    margin: 0;
+    line-height: 75%;
+  }
+
+  .name-subtitle {
+    text-align: right;
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .name-underline {
+    padding: 0;
+    color: transparent;
+    background-color: rgba(234, 191, 90, 0.525);
+    margin-bottom: 5%;
+
   }
   
 /*  images */
@@ -30,77 +47,33 @@
     display: block;
     margin: auto;
     width: 100%;
+    
 }
 
-.blocks-img {
+.pfp-img {
     display: block;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 8px; 
 }
 
-.blocks-img-wide {
+.header-img {
     display: block;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 50%;
     margin-bottom: 16px;
+    scale: 80%;
+    border-radius: 25px;
 }
 
-.door-img1 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door1.png);
-    display: block;
-    padding-top: 100%;
-}
+.art-img {
+  display: inline;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  
 
-.door-img1:hover {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door1open.png);
-    display: block;
-    padding-top: 100%;
-}
-
-.door-img2 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door2.png);
-    display: block;
-    padding-top: 100%;
-}
-
-.door-img2:hover {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door2open.png);
-    display: block;
-    padding-top: 100%;
-}
-
-.door-img3 {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door3.png);
-    display: block;
-    padding-top: 100%;
-}
-
-.door-img3:hover {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: relative;
-    background-image: url(assets/door3open.png);
-    display: block;
-    padding-top: 100%;
 }
 
 
@@ -110,7 +83,7 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(assets/bgs.png);
+    background-image: url(/assets/bgs.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -119,16 +92,17 @@ body {
 .page-top-bottom {
     margin: 16px;
     text-align: center;
-
 }
 
 .each-column {
-    margin: 0;
-    padding: 0;
-    
+    margin: 16px;
+    padding: 16px;
+    vertical-align: top;
 }
 
 .column-container {
-    columns: 3;
+    columns: 2;
     margin-bottom: 48px;
+    margin: 32px;
 }
+
