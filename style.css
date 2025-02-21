@@ -1,0 +1,126 @@
+/* text */
+
+.disclaimer {
+    background-color: rgb(173, 23, 23);
+    text-align: center;
+}
+
+p {
+    color: rgb(249, 245, 245);
+    font-family: "Dongle", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    line-height: 75%;
+    display: inline-block;
+    margin: 0.25em;
+  }
+
+  
+/*  images */
+.title-img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.blocks-img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.blocks-img-wide {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 16px;
+}
+
+.door-img1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door1.png);
+    display: block;
+    padding-top: 100%;
+}
+
+.door-img1:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door1open.png);
+    display: block;
+    padding-top: 100%;
+}
+
+.door-img2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door2.png);
+    display: block;
+    padding-top: 100%;
+}
+
+.door-img2:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door2open.png);
+    display: block;
+    padding-top: 100%;
+}
+
+.door-img3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door3.png);
+    display: block;
+    padding-top: 100%;
+}
+
+.door-img3:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-image: url(/assets/door3open.png);
+    display: block;
+    padding-top: 100%;
+}
+
+
+/* containers */
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/bgs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-top-bottom {
+    margin: 16px;
+    text-align: center;
+
+}
+
+.each-column {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.column-container {
+    columns: 3;
+    margin-bottom: 48px;
+}
